@@ -1,13 +1,16 @@
 import "./styles/main.css"
-import { POSItems } from "./sections/POSItems/POSItems"
+import { POSItems, POSSummary } from "./sections"
 
 
 function App() {
   return (
-    <>
+    <div className="main-page">
+      <div className="pos-sections-wrapper">
 
-      <POSItems />
-    </>
+        <POSItems />
+        <POSSummary />
+      </div>
+    </div>
   )
 }
 

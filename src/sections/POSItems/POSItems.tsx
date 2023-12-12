@@ -1,10 +1,25 @@
 import { POSItemCard } from "../../component"
 
+
+
+
 export const POSItems = () => {
     return (
-        <div>
+        <div className="pos-items-wrapper">
             <div className="pos-items-grid">
-                <POSItemCard name="test" price={90} image="https://www.collinsdictionary.com/images/full/cup_126346628.jpg" />
+                <POSItemCard name="Lorem ipsum , adipisicing elit. Beatae, eaque." price={90.99} />
+                <POSItemCard name="Lorem ipsum , adipisicing elit. Beatae, eaque." price={90.99} />
+                <POSItemCard name="Lorem ipsum , adipisicing elit. Beatae, eaque." price={90.99} />
+                <POSItemCard name="Lorem ipsum , adipisicing elit. Beatae, eaque." price={90.99} />
+                <POSItemCard name="Lorem ipsum , adipisicing elit. Beatae, eaque." price={90.99} />
+                <POSItemCard name="Lorem ipsum , adipisicing elit. Beatae, eaque." price={90.99} />
+                <POSItemCard name="Lorem ipsum , adipisicing elit. Beatae, eaque." price={90.99} />
+                <POSItemCard name="Lorem ipsum , adipisicing elit. Beatae, eaque." price={90.99} />
+                <POSItemCard name="Lorem ipsum , adipisicing elit. Beatae, eaque." price={90.99} />
+                <POSItemCard name="Lorem ipsum , adipisicing elit. Beatae, eaque." price={90.99} />
+                <POSItemCard name="Lorem ipsum , adipisicing elit. Beatae, eaque." price={90.99} />
+                <POSItemCard name="Lorem ipsum , adipisicing elit. Beatae, eaque." price={90.99} />
+                <POSItemCard name="Lorem ipsum , adipisicing elit. Beatae, eaque." price={90.99} />
             </div>
         </div>
     )

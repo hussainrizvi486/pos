@@ -1,17 +1,19 @@
 interface POSItemCardProps {
     name: string,
     price: number,
-    image: string
+    image?: string
 }
 
 
 export const POSItemCard = ({ name, price, image }: POSItemCardProps) => {
     return (
         <div className="pos-item-card">
-            {name}
-            {price}
+            <div className="pos-item-card__img">
+                <img src={image} alt="" />
+            </div>
 
-            <img src={image} alt="" />
+            <div className="pos-item__title">{name}</div>
+            <div className="pos-item__price">${price}</div>
         </div>
     )
 }
